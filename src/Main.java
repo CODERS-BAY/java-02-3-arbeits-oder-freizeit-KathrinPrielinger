@@ -7,8 +7,6 @@ public class Main {
         // dass eine Zahl von der Konsole einliest und ausgibt ob die Stunde in der Arbeitszeit liegt oder nicht.
 
         //Bonus: von 12 bis 13 Uhr ist immer Mittagspause, gib also in der Zeit aus, dass Mittag ist.
-            int start = 8;
-            int end = 16;
 
             Scanner scanner = new Scanner(System.in);
             int time = scanner.nextInt();
@@ -18,16 +16,12 @@ public class Main {
             }
 
             else if (time <= 16 & time >= 8) {
-                System.out.println("Diese Zeit ist Arbeitszeit in der Codersbay" + scanner);
+                System.out.println("Diese Zeit ist Arbeitszeit in der Codersbay");
             }
 
             else {
-                System.out.println("Diese Zeit ist keine Arbeitszeit in der Codersbay" + scanner);
+                System.out.println("Diese Zeit ist keine Arbeitszeit in der Codersbay");
             }
-
-
-
-
 
     }
 }
