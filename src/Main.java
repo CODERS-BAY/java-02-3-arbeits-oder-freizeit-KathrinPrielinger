@@ -8,20 +8,16 @@ public class Main {
 
         //Bonus: von 12 bis 13 Uhr ist immer Mittagspause, gib also in der Zeit aus, dass Mittag ist.
 
-            Scanner scanner = new Scanner(System.in);
-            int time = scanner.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int time = scanner.nextInt();
 
-            if (time <= 13 & time >= 12) {
-                System.out.println("Mittagspause!");
-            }
-
-            else if (time <= 16 & time >= 8) {
-                System.out.println("Diese Zeit ist Arbeitszeit in der Codersbay");
-            }
-
-            else {
-                System.out.println("Diese Zeit ist keine Arbeitszeit in der Codersbay");
-            }
+        if (time <= 13 & time >= 12) {
+            System.out.println("Mittagspause!" + time);
+        } else if (time <= 16 & time >= 8) {
+            System.out.println("Diese Zeit ist Arbeitszeit in der Codersbay" + time);
+        } else {
+            System.out.println("Diese Zeit ist keine Arbeitszeit in der Codersbay" + time);
+        }
 
     }
 }
